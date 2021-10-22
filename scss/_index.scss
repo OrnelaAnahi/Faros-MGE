@@ -1,0 +1,19 @@
+.mainIndex{
+    margin: 0 10px;
+    .main-index__h2{
+        @include titulos ($color_azul);
+    }
+    .section-index {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: space-evenly;
+        .section-index__div {
+            @include cajas (5px);
+            .section-index__img {
+                @include imagenes;
+            }
+        }
+    }
+}

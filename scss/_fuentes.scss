@@ -1,0 +1,24 @@
+.grosor {
+    font-weight: bold;
+}
+p {
+    font-family: $parrafo;
+    color: $color_azul;
+    padding: $padding/2;
+    margin-bottom: 0px;
+    /*PROPIEDADES QUE ESTAN EN BOOTSTRAP Y MODIFIQUE*/
+    display: block;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+a {
+    text-decoration: none;
+    color: $color_azul;
+}
+ul {
+    font-family: $parrafo;
+    color: $color_azul;
+    margin-left: 25px;
+}

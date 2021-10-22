@@ -1,0 +1,14 @@
+.footer {
+    @include encabezadoYPie;
+    border-top: $color_celestito 2px solid;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    position: absolute;
+    .footer__p {
+        color: $color_blanco;
+        margin: 10px;
+    }
+}

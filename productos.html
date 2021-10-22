@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!---------------------BOOTSTRAP------->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <!-------------FUENTE---------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&family=PT+Sans&display=swap" rel="stylesheet" />
+    <!-------------------ANIMACION----------------------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <!-------------ICONO------------------>
+    <link rel="shortcut icon" href="nueva carpeta/logos/logo32.png" />
+    <meta name="description" content="Este es el sitio web de mi emprendimiento de venta de autopartes, en esta pagina encontraras todos nuestros productos con sus respectivos precios.">
+    <meta name="keywords"  content="FAROS MGE, FAROS, OPTICAS, COMBOS, PRODUCTOS, FIAT, FORD, CHEVROLET, FAROS DE GIRO, PARAGOLPES, PARRILLA, FARO AUXILIAR, FARO DE GIRO, TOYOTA">
+    <!----------------------MI HOJA DE ESTILO------------------------->
+    <link rel="stylesheet" href="css/archivo.css" />
+    <title>FAROS MGE/Productos</title>
+</head>
+
+<body>
+    <header class="header encabezadoYPieDePagina">
+        <a href="index.html"><img class="header__logo" src="nueva carpeta/logos/logo sin fondo.png"
+                alt="Farosmgelogo" /></a>
+        <h1 class="header__h1 animate__animated animate__backInLeft"><em>FAROS MGE</em></h1>
+        <!--MENU DE NAVEGACION-->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid extirar">
+                <a class="navbar-brand ocultar" href="#"> <span class="color">Menu</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon icono"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ocupar">
+                        <li class="espacio">
+                            <a class="links" href="index.html">Inicio</a>
+                        </li>
+                        <li class="espacio">
+                            <a class="links" href="productos.html">Productos</a>
+                        </li>
+                        <li class="espacio">
+                            <a class="links" href="locales.html">Locales</a>
+                        </li>
+                        <li class="espacio">
+                            <a class="links" href="contactos.html">Contactos</a>
+                        </li>
+                        <li class="espacio">
+                            <a class="links" href="envios.html">Envios</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="mainProductos">
+        <section class="section-clasificacion">
+            <ul class="section-clasificacion__ul">
+                <li class="section-clasificacion__li">
+                    <span class="section-clasificacion__span"> Productos </span>
+                    <ul>
+                        <li class="section-clasificacion__sublista"> <a href="productos.html"> Combos </a></li>
+                        <li class="section-clasificacion__sublista"> <a href="#farosAuxiliares"> Faros auxiliares </a>
+                        </li>
+                        <li class="section-clasificacion__sublista"> <a href="#farosdePatentes"> Faros de patentes </a>
+                        </li>
+                        <li class="section-clasificacion__sublista"> <a href="#farosTraseros"> Faros traseros </a></li>
+                        <li class="section-clasificacion__sublista"> <a href="#farosDeGiro"> Faros de Giros </a></li>
+                        <li class="section-clasificacion__sublista"> <a href="#opticas"> Opticas </a></li>
+                        <li class="section-clasificacion__sublista"> <a href="#paragolpes"> Paragolpes </a></li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        <!--EN ESTA SECCION VAN TODOS LOS PRODUCTOS-->
+        <div class="div-productos">
+            <!--ACA VAN TODOS LOS COMBOS Y KITS-->
+            <h2 class="div-productos__h2">COMBOS Y KITS</h2>
+            <!--DIV PARA PODER AGREGAR A SOLO LOS PRODUCTOS FLEXBOX-->
+            <div class="div-productos__caja">
+                <div class="div-caja">
+                    <img class="div-caja__img" src="nueva carpeta/productos/Combofalconstandard.jpg"
+                        alt="imagen del Combo de opticas,giros,parrilla,aros y logo Falcon Standard 78/81" />
+                    <p>Combo de opticas, giros, parrilla, aros y logo de Falcon Standard 78/81</p>
+                    <p>$9.300,00</p>
+                </div>
+                <div class="div-caja">
+                    <img class="div-caja__img" src="nueva carpeta/productos/combofalconghia.jpg"
+                        alt="imagen del Combo De opticas, giros, parrilla, molduras de Falcon Ghia 82/90" />
+                    <p>Combo de opticas, giros, parrilla, molduras de Falcon Ghia 82/90</p>
+                    <p>$13.837,00</p>
+                </div>
+                <div class="div-caja">
+                    <img class="div-caja__img" src="nueva carpeta/productos/combosupereuropa.jpg"
+                        alt="imagen del Combo de opticas,giros X4, faros traseros de Super Europa 128" />
+                    <p>Combo de opticas, giros X4, faros traseros de Super Europa 128</p>
+                    <p>$13.735,00</p>
+                </div>
+                <div class="div-caja">
+                    <img class="div-caja__img" src="nueva carpeta/productos/kitrenault12.jpg"
+                        alt="imagen del Kit de opticas, giros, faros,casco de opticas y aros para Renault12 71-94 " />
+                    <p>Kit de opticas, giros, faros,casco de opticas y aros para Renault12 71-94 </p>
+                    <p>$10.584,00</p>
+                </div>
+                <div class="div-caja">
+                    <img class="div-caja__img" src="nueva carpeta/productos/comborenault12.jpg"
+                        alt="imagen del Combo de faros traseros,parrilla Y aros para Renault 12" />
+                    <p>Combo de faros traseros, parrilla Y aros para Renault 12</p>
+                    <p>$6.046,00</p>
+                </div>
+                <div class="div-caja">
+                    <img class="div-caja__img" src="nueva carpeta/productos/comborenault12farospunteras.jpg"
+                        alt="imagen del Combo de faros De giros, punteras, aros, parrilla para Renault 12" />
+                    <p id="farosAuxiliares">Combo de faros De giros, punteras, aros, parrilla para Renault 12</p>
+                    <p>$6.531,00</p>
+                </div>
+            </div>
+            <!--ACA VAN TODOS LOS FAROS AUXILIARES-->
+            <h2 class="div-productos__h2">FAROS AUXILIARES</h2>
+            <div class="div-productos__caja">
+                <div class="div-caja">
+                    <img class="div-caja__img" src="nueva carpeta/productos/Faroauxiliarcorsa.jpeg"
+                        alt="imagen del Combo del Juego Faro Auxiliar Chevrolet Corsa Classic" />
+                    <p>Juego Faro Auxiliar Chevrolet Corsa Classic 05 06 07 08 09</p>
+                    <p>$4.004,00</p>
+                </div>
+                <div class="div-caja">
+                    <img class="div-caja__img" src="nueva carpeta/productos/faroauxiliarAmaro.jpeg"
+                        alt="imagen del Faro Auxiliar Vw Amarok 2016 2017 2018 2019 Orig" />
+                    <p>Faro Auxiliar Vw Amarok 2016 2017 2018 2019 Orig</p>
+                    <p>$20.000,00</p>
+                </div>
+                <div class="div-caja">
+                    <img class="div-caja__img" src="nueva carpeta/productos/faroauxiliaracelta.jpeg"
+                        alt="imagen del Kit Faros Auxiliares Antiniebla Chevrolet Celta 2011 A 2016" />
+                    <p>Kit Faros Auxiliares Antiniebla Chevrolet Celta 2011 A 2016</p>
+                    <p>$9.769,00</p>
+                </div>
+                <div class="div-caja">
+                    <img class="div-caja__img" src="nueva carpeta/productos/faroauxiliarchevrolet.jpeg"
+                        alt="imagen del Juego De Faros Auxiliar Antiniebla P/ Chevrolet Astra 2003 A 2012  " />
+                    <p>Juego De Faros Auxiliar Antiniebla P/ Chevrolet Astra 2003 A 2012 </p>
+                    <p>$6.900,00</p>
+                </div>
+                <div class="div-caja">
+                    <img class="div-caja__img" src="nueva carpeta/productos/faroauxiliarhilux.jpeg"
+                        alt="imagen del Kit Faro Auxiliar Toyota Hilux 2012 - 2013 - 2014 - 2015 Vic" />
+                    <p>Kit Faro Auxiliar Toyota Hilux 2012 - 2013 - 2014 - 2015 Vic</p>
+                    <p>$11.426,00</p>
+                </div>
+                <div class="div-caja">
+                    <img class="div-caja__img" src="nueva carpeta/productos/faroauxiliarDuna.jpeg"
+                        alt="imagen del Kit Faros Auxiliares Rectangular Iodo Antiniebla Duna- Xp" />
+                    <p id="farosdePatentes">Kit Faros Auxiliares Rectangular Iodo Antiniebla Duna- Xp</p>
+                    <p>$1.170,00</p>
+                </div>
+            </div>
+            <!--ACA VAN TODOS LOS FAROS DE PATENTES-->
+            <h2 class="div-productos__h2">FAROS DE PATENTES</h2>
+            <div class="div-productos__caja">
+                <div class="div-caja">
+                    <img class="div-caja__img" src="nueva carpeta/productos/FPartenteuniversal.jpeg"
+                        alt="imagen del Faro De Patente Universal Chapa Cromada 10 Por 5 Cm" />
+                    <p>Faro De Patente Universal Chapa Cromada 10 Por 5 Cm</p>
+                    <p>$2.616,00</p>
+                </div>
+                <div class="div-caja">
+                    <img class="div-caja__img" src="nueva carpeta/productos/FPchevrolet.jpeg"
+                        alt="imagen del Faro Trasero Patente Chevrolet Corsa Sw Corsa Pickup" />
+                    <p>Faro Trasero Patente Chevrolet Corsa Sw Corsa Pickup.</p>
+                    <p>$1.656,00</p>
+                </div>
+                <div class="div-caja">
+                    <img class="div-caja__img" src="nueva carpeta/productos/FPestrada.jpeg"
+                        alt="imagen del Faro De Patente Strada Original Fiat 06/18" />
+                    <p>Faro De Patente Strada Original Fiat 06/18</p>
+                    <p>$636,00</p>
+                </div>
+                <div class="div-caja">
+                    <img class="div-caja__img" src="nueva carpeta/productos/FPducato.jpeg"
+                        alt="imagen del Faro Patente Ducato Fiat Nueva Ducato Furgon 2010  " />
+                    <p id="farosTraseros">Faro Patente Ducato Fiat Nueva Ducato Furgon 2010</p>
+                    <p>$2.398,00</p>
+                </div>
+            </div>
+            <!--ACA VAN TODOS LOS FAROS TRASEROS-->
+            <h2 class="div-productos__h2">FAROS TRASEROS</h2>
+            <div class="div-productos__caja">
+                <div class="div-caja">
+                    <img class="div-caja__img" src="nueva carpeta/productos/FTtoyota.jpeg"
+                        alt="imagen del Faro Toyota Hilux 2011 2012 2013 2014 2015 Original Ftm" />
+                    <p>Faro Trasero Toyota Hilux 2011 2012 2013 2014 2015 Original Ftm</p>
+                    <p>$4.438,00</p>
+                </div>
+                <div class="div-caja">
+                    <img class="div-caja__img" src="nueva carpeta/productos/FTfiat.jpeg"
+                        alt="imagen del Faro Trasero Fiat 147 Spazio" />
+                    <p>Faro Trasero Fiat 147 Spazio</p>
+                    <p>$1.540,00</p>
+                </div>
+                <div class="div-caja">
+                    <img class="div-caja__img" src="nueva carpeta/productos/FTsuran.jpeg"
+                        alt="imagen del Faro Trasero Suran 2003 / 2009 Interior / Exterior Juego X4" />
+                    <p>Faro Trasero Suran 2003 / 2009 Interior / Exterior Juego X4</p>
+                    <p>$10.800,00</p>
+                </div>
+                <div class="div-caja">
+                    <img class="div-caja__img" src="nueva carpeta/productos/FTrenaultlogan.jpeg"
+                        alt="imagen del Faro Trasero Renault Logan 2 2014 a 2019 " />
+                    <p>Faro Trasero Renault Logan 2 2014 a 2019 </p>
+                    <p>$5.563,00</p>
+                </div>
+                <div class="div-caja">
+                    <img class="div-caja__img" src="nueva carpeta/productos/FTsandero.jpeg"
+                        alt="imagen del Faro Trasero Sandero Stepway 2011 2012 2013 2014 Color Negro" />
+                    <p>Faro Trasero Sandero Stepway 2011 a 2014 Color Negro</p>
+                    <p>$5.507,00</p>
+                </div>
+                <div class="div-caja">
+                    <img class="div-caja__img" src="nueva carpeta/productos/FTranger.jpeg"
+                        alt="imagen del Faro trasero Ford Ranger 2009 a 2012" />
+                    <p id="farosDeGiro">Faro trasero Ford Ranger 2009 a 2012</p>
+                    <p>$5.250,00</p>
+                </div>
+            </div>
+            <!--ACA VAN TODOS LOS FAROS DE GIRO-->
+            <h2 class="div-productos__h2">FAROS DE GIRO</h2>
+            <div class="div-productos__caja">
+                <div class="div-caja">
+                    <img class="div-caja__img" src="nueva carpeta/productos/FGtoyota.jpg"
+                        alt="imagen del Faro De Giro Sobre Espejo Toyota Etios " />
+                    <p>Faro De Giro Sobre Espejo Toyota Etios </p>
+                    <p>2.715,00</p>
+                </div>
+                <div class="div-caja">
+                    <img class="div-caja__img" src="nueva carpeta/productos/FGrenault19.jpg"
+                        alt="imagen del Juego Par Faro Giro Delantero Renault R 19 93 94 95 96 97 98" />
+                    <p>Juego Par Faro Giro Delantero Renault R 19 93 94 95 96 97 98</p>
+                    <p>$1.118,00</p>
+                </div>
+                <div class="div-caja">
+                    <img class="div-caja__img" src="nueva carpeta/productos/FGcitroen.jpg"
+                        alt="imagen del Par De Faro Giro Delantero Peugeot Partner Citroen Berlingo" />
+                    <p>Par De Faro Giro Delantero Peugeot Partner Citroen Berlingo</p>
+                    <p>$1.428,00</p>
+                </div>
+                <div class="div-caja">
+                    <img class="div-caja__img" src="nueva carpeta/productos/FGParner.jpg"
+                        alt="imagen del Juego Giro Partner 2004 2005 2006 2007 2008 2009 2010 Par " />
+                    <p>Juego Giro Partner 2004 a 2010 Par </p>
+                    <p>$1.215,00</p>
+                </div>
+                <div class="div-caja">
+                    <img class="div-caja__img" src="nueva carpeta/productos/FGgol.jpg"
+                        alt="imagen del Juego Par Faro Giro Vw Gol Senda Saveiro 1991 1992 1993 1994" />
+                    <p id="opticas">Juego Par Faro Giro Vw Gol Senda Saveiro 1991 1992 1993 1994</p>
+                    <p>1.049,00</p>
+                </div>
+            </div>
+            <!--ACA VAN TODAS LAS OPTICAS-->
+            <h2 class="div-productos__h2">OPTICAS</h2>
+            <div class="div-productos__caja">
+                <div class="div-caja">
+                    <img class="div-caja__img" src="nueva carpeta/productos/Opchevrolet.jpg"
+                        alt="imagen del Juego Par (x2) Optica Chevrolet Classic 2011 2012 2013 2014" />
+                    <p>Juego de Optica Chevrolet Classic 2011 2012 2013 2014</p>
+                    <p>$6.235,00</p>
+                </div>
+                <div class="div-caja">
+                    <img class="div-caja__img" src="nueva carpeta/productos/Oprenault.jpg"
+                        alt="imagen de Optica Renault Kangoo 09 2012 2013 2014 2015 2016 2017 2018" />
+                    <p>Optica Renault Kangoo 09 2012 a 2018</p>
+                    <p>$7.900,00</p>
+                </div>
+                <div class="div-caja">
+                    <img class="div-caja__img" src="nueva carpeta/productos/Opsiena.jpg"
+                        alt="imagen de Optica P/ Fiat Siena Fase 4 2012 2013 2014 2015 2016 2017" />
+                    <p>Optica P/ Fiat Siena Fase 4 2012 a 2017</p>
+                    <p>$7.800,00</p>
+                </div>
+                <div class="div-caja">
+                    <img class="div-caja__img" src="nueva carpeta/productos/OPx2chevrolet.jpg"
+                        alt="imagen del Juego Par Optica Chevrolet Astra 2003 04 05 06 07 08 2009 " />
+                    <p>Juego Par Optica Chevrolet Astra 2003 a 2009 </p>
+                    <p>$21.290,00</p>
+                </div>
+                <div class="div-caja">
+                    <img class="div-caja__img" src="nueva carpeta/productos/OpVwGol.jpg"
+                        alt="imagen del Juego De 2 Optica Vw Gol Power 2006 / 2014 " />
+                    <p>Juego De 2 Optica Vw Gol Power 2006 a 2014 </p>
+                    <p>$4.690,00</p>
+                </div>
+                <div class="div-caja">
+                    <img class="div-caja__img" src="nueva carpeta/productos/OpBora.jpg"
+                        alt="imagen de Óptica Bora 2007 2008 2009 2010 2011 2012 2013 2014 2015" />
+                    <p>Óptica Bora 2007 a 2015</p>
+                    <p>$13.063,00</p>
+                </div>
+                <div class="div-caja">
+                    <img class="div-caja__img" src="nueva carpeta/productos/OpFiarPalio.jpg"
+                        alt="imagen de Optica Fitam Fiat Palio Siena 2004 A 2017 F Crom Aro Crom I" />
+                    <p id="paragolpes">Optica Fitam Fiat Palio Siena 2004 A 2017 F Crom Aro Crom I</p>
+                    <p>$´4.324,00</p>
+                </div>
+            </div>
+            <!--ACA VAN TODOS LOS PARAGOLPES-->
+            <h2 class="div-productos__h2">PARAGOLPES</h2>
+            <div class="div-productos__caja">
+                <div class="div-caja">
+                    <img class="div-caja__img" src="nueva carpeta/productos/ParagolpeVwGol.jpg"
+                        alt="imagen del Paragolpe Delantero Vw Gol Power 2006 2007 2008 2009 2010 " />
+                    <p>Paragolpe Delantero Vw Gol Power 2006 a 2010 </p>
+                    <p>6.354,00</p>
+                </div>
+                <div class="div-caja">
+                    <img class="div-caja__img" src="nueva carpeta/productos/paragolpegoltrend.jpg"
+                        alt="imagen del Paragolpe Grilla Gol Trend Voyage 2008 2009 2010 2011 2012" />
+                    <p>Paragolpe Grilla Gol Trend Voyage 2008 a 2012</p>
+                    <p>9.295,00</p>
+                </div>
+                <div class="div-caja">
+                    <img class="div-caja__img" src="nueva carpeta/productos/Paragolpecorsa.jpg"
+                        alt="imagen del Paragolpe Corsa Classic 04 05 2006 2007 2008 2009 2010 2011" />
+                    <p>Paragolpe Corsa Classic 2004 a 2011</p>
+                    <p>$3.365,00</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <p class="footer__p">Todos los derechos reservados</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.min.js"
+        integrity="sha384-PsUw7Xwds7x08Ew3exXhqzbhuEYmA2xnwc8BuD6SEr+UmEHlX8/MCltYEodzWA4u"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

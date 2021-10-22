@@ -1,0 +1,175 @@
+@media only screen and (max-width: 401px) {
+    .header {
+        background-image: none;
+        background-color: $color_azul;
+        .header__logo {
+            width: 70px;
+        }
+        .header__h1 {
+            font-size: 30px;
+        }
+    }
+    .ocultar {
+    display: block;
+    }
+    .color {
+    color: $color_blanco;
+    font-size: 16px;
+    }
+    .extirar {
+    background-color: $color_azul;
+    width: 100vw;
+    }
+    .icono {
+    width: 30px;
+    height: 30px;
+    }
+    .espacio {
+    margin-bottom: 12px;
+    }
+    /*-------PRODUCTOS------*/
+    .mainProductos {
+        display: flex;
+        flex-direction: column;
+        .section-clasificacion {
+            display: none;
+    }
+    }
+    /*-----LOCALES--*/
+    .section-locales {
+        display: flex;
+        flex-direction: column;
+        .section-locales__local {
+            margin-top: 5px;
+        }
+        .section-locales__mapa {
+            width: 250px;
+            height: 250px;
+        }
+    }
+    /*----CONTACTOS---*/
+    .mainContactos {
+        flex-direction: column;
+    }
+    /*---ENVIOS---*/
+    .mainSeccionEnvios {
+        display: flex;
+        flex-direction: column;
+        .section-envios {
+            width: 90%;
+            display: flex;
+            flex-direction: column;
+        }
+        .section-preguntas {
+            width: 90%;
+    }
+    }
+    .footer {
+        height: 50px;
+        font-size: 12px;
+        flex-direction: column;
+        .footer__p {
+            margin: 2px;
+        }
+    }
+}
+@media only screen and (max-width: 750px) and (min-width: 401px) {
+    .header {
+        background-image: none;
+        background-color: $color_azul;
+        height: 140px;
+    }
+    .ocultar {
+        display: block;
+    }
+    .color {
+        color: $color_blanco;
+        font-size: 16px;
+    }
+    .extirar {
+        background-color: $color_azul;
+    }
+    .icono {
+        width: 30px;
+        height: 30px;
+    }
+    .espacio {
+        margin-bottom: 12px;
+    }
+    /*----PRODUCTOS------*/
+    .mainProductos {
+        display: flex;
+        flex-direction: column;
+        .section-clasificacion {
+            display: none;
+        }
+    }
+    .div-productos {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    /*-----LOCALES--*/
+    .section-locales {
+        display: flex;
+        flex-direction: column;
+        .section-locales__mapa {
+        width: 370px;
+        height: 300px;
+        }
+        .section-locales__local {
+        margin-top: 5px;
+        }
+    }
+    /*---ENVIOS---*/
+    .mainSeccionEnvios {
+        display: flex;
+        flex-direction: column;
+        .section-envios {
+            width: 90%;
+            display: flex;
+            flex-direction: column;
+        }
+        .section-preguntas {
+            width: 90%;
+        }
+        }
+    }
+    @media only screen and (max-width: 991px) and (min-width: 750px) {
+        .header {
+            background-image: none;
+            background-color: $color_azul;
+            height: 140px;
+        }
+        .ocultar {
+            display: block;
+        }
+        .color {
+            color: $color_blanco;
+            font-size: 16px;
+        }
+        .extirar {
+            background-color: $color_azul;
+        }
+        .icono {
+            width: 30px;
+            height: 30px;
+        }
+        .espacio {
+            margin-bottom: 12px;
+        }
+        /*----PRODUCTOS----*/
+        .mainProductos {
+            grid-template-columns: 2fr 2fr 2fr 2fr;
+        }
+        /*----LOCALES----*/
+        .section-locales__mapa {
+            width: 350px;
+            height: 350px;
+        }
+        /*----CONTACTOS----*/
+        .section-envios {
+            display: flex;
+            flex-direction: column;
+        }
+    }

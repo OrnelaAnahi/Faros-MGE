@@ -1,0 +1,23 @@
+.section-locales {
+    display: grid;
+    grid-template-areas:
+        "titulo titulo"
+        "mapa acercate"
+        "mapa ."
+        "mapa horarios";
+        .section-locales__titulo {
+            grid-area: titulo;
+            .section-locales__h2 {
+                @include titulos ($color_azul);
+            }
+        }
+        .section-locales__local {
+            grid-area: mapa;
+        }
+        .section-locales__acercate {
+            grid-area: acercate;
+        }
+        .section-locales__horarios {
+            grid-area: horarios;
+        }
+}

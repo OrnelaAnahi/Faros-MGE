@@ -1,0 +1,31 @@
+$color_azul:#09466e;
+$color_blanco:#effffb;
+$color_celestito:#bbe1fa;
+$color_azul_oscuro:#1b262c;
+$titulos: "Arvo", serif;
+$parrafo: "PT Sans", sans-serif;
+$padding: 10px;
+@mixin imagenes{
+    width: 200px;
+    align-items: center;
+}
+@mixin cajas ($margin) {
+    margin: $margin;
+    border: rgba(0, 0, 0, 0.5) 1px solid;
+    padding: $padding/2;
+    height: 325px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@mixin titulos ($color) {
+    font-family: $titulos;
+    color: $color;
+    padding: $padding;
+}
+@mixin encabezadoYPie {
+    z-index: 999;
+    background-image: linear-gradient(to bottom, #0f4c75, #3c6077);
+    width: 100%;
+}

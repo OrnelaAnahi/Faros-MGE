@@ -1,0 +1,34 @@
+.mainContactos{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+    .section-redes{
+        display: flex;
+        flex-flow: column wrap;
+        .section-redes__titulo {
+            @include titulos ($color_azul);
+        }
+        .section-redes__div {
+            display: inline-block;
+            text-align: center;
+            .section-redes__img {
+                width: 75px;
+            }
+        }
+    }
+    .formulario{
+        font-family: $parrafo;
+        color: $color_azul;
+        .formularioTitulo{
+            @include titulos ($color_azul);
+        }
+        .fieldsetContacto {
+            margin: 10px;
+            .formularioEspacio {
+                padding: $padding/2;
+                margin-left: 20px;
+            }
+        }
+    }
+}

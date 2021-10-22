@@ -1,0 +1,38 @@
+.mainSeccionEnvios {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    .section-envios {
+        padding: $padding;
+        margin: 10px;
+        border: 1px $color_celestito solid;
+        width: 50%;
+        .section-envios__h2{
+            @include titulos ($color_azul);
+        }
+        .section-envios__img{
+            width: 250px;
+            float: left;
+        }
+    }
+    .section-preguntas {
+        margin: 10px;
+        padding: $padding;
+        width: 50%;
+        border: 1px $color_celestito solid;
+        .section-preguntas__h2 {
+            @include titulos ($color_azul);
+        }
+        .section-preguntas__duda {
+            font-weight: 800;
+            padding: 10px 0px;
+        }
+        .section-preguntas__respuesta {
+            margin-left: 15px;
+        }
+        .section-preguntas__span {
+            font-weight: 600;
+        }
+    }
+}

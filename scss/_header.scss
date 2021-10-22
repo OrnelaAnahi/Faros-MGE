@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    font-family: "Arvo", serif;}
+
+.header{
+    border-bottom: $color_celestito 4px solid;
+    position: sticky;
+    top: 0%;
+    height: 130px;
+    @include encabezadoYPie;
+    .header__logo{
+        width: 100px;
+        float: left;
+        margin-right: 20px;
+        padding-top: $padding+5;
+    }
+    .header__h1{
+        text-align: left;
+        text-transform: uppercase;
+        font-size: 45px;
+        @include titulos ($color_blanco);
+    }
+    nav{
+        float: right;
+        font-family: "PT Sans", sans-serif;
+        .links{
+            text-decoration: none;
+            color: $color_blanco;
+            padding: $padding;
+            border-radius: 10px;
+            transition: all 1s ease;
+        }
+        .links:hover{
+            background-color: #3282b8;
+            border-radius: 10px;
+            color: $color_blanco;
+        }
+        .ocultar{
+            display:none
+        }
+    }
+}
