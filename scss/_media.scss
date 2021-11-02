@@ -2,8 +2,10 @@
     .header {
         background-image: none;
         background-color: $color_azul;
+        height: 90px;
         .header__logo {
             width: 70px;
+            margin-top: 10px;
         }
         .header__h1 {
             font-size: 30px;
@@ -18,7 +20,6 @@
     }
     .extirar {
     background-color: $color_azul;
-    width: 100vw;
     }
     .icono {
     width: 30px;
@@ -77,7 +78,13 @@
     .header {
         background-image: none;
         background-color: $color_azul;
-        height: 140px;
+        .header__logo {
+            width: 70px;
+            margin-top: 5px;
+        }
+        .header__h1 {
+            font-size: 30px;
+        }
     }
     .ocultar {
         display: block;
@@ -139,7 +146,7 @@
         .header {
             background-image: none;
             background-color: $color_azul;
-            height: 140px;
+            height: 75px;
         }
         .ocultar {
             display: block;

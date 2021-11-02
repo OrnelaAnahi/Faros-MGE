@@ -11,24 +11,19 @@ body {
   border-bottom: #bbe1fa 4px solid;
   position: sticky;
   top: 0%;
-  height: 130px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   z-index: 999;
   background-image: linear-gradient(to bottom, #0f4c75, #3c6077);
   width: 100%; }
   .header .header__logo {
-    width: 100px;
-    float: left;
-    margin-right: 20px;
-    padding-top: 15px; }
+    width: 100px; }
   .header .header__h1 {
-    text-align: left;
-    text-transform: uppercase;
-    font-size: 45px;
     font-family: "Arvo", serif;
     color: #effffb;
     padding: 10px; }
   .header nav {
-    float: right;
     font-family: "PT Sans", sans-serif; }
     .header nav .links {
       text-decoration: none;
@@ -36,10 +31,10 @@ body {
       padding: 10px;
       border-radius: 10px;
       transition: all 1s ease; }
-    .header nav .links:hover {
-      background-color: #3282b8;
-      border-radius: 10px;
-      color: #effffb; }
+      .header nav .links:hover {
+        background-color: #3282b8;
+        border-radius: 10px;
+        color: #effffb; }
     .header nav .ocultar {
       display: none; }
 
@@ -241,9 +236,11 @@ ul {
 @media only screen and (max-width: 401px) {
   .header {
     background-image: none;
-    background-color: #09466e; }
+    background-color: #09466e;
+    height: 90px; }
     .header .header__logo {
-      width: 70px; }
+      width: 70px;
+      margin-top: 10px; }
     .header .header__h1 {
       font-size: 30px; }
   .ocultar {
@@ -252,8 +249,7 @@ ul {
     color: #effffb;
     font-size: 16px; }
   .extirar {
-    background-color: #09466e;
-    width: 100vw; }
+    background-color: #09466e; }
   .icono {
     width: 30px;
     height: 30px; }
@@ -297,8 +293,12 @@ ul {
 @media only screen and (max-width: 750px) and (min-width: 401px) {
   .header {
     background-image: none;
-    background-color: #09466e;
-    height: 140px; }
+    background-color: #09466e; }
+    .header .header__logo {
+      width: 70px;
+      margin-top: 5px; }
+    .header .header__h1 {
+      font-size: 30px; }
   .ocultar {
     display: block; }
   .color {
@@ -345,7 +345,7 @@ ul {
   .header {
     background-image: none;
     background-color: #09466e;
-    height: 140px; }
+    height: 75px; }
   .ocultar {
     display: block; }
   .color {
